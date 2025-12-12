@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CA AMA Quiz - Advanced Management Accounting</title>
+    <title>CA Exam Quiz - AMA & Corporate Law</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,11 +15,66 @@
     <!-- Main Container -->
     <div class="container">
         
-        <!-- Start Screen -->
-        <div class="screen active" id="startScreen">
+        <!-- Subject Selection Screen (Home) -->
+        <div class="screen active" id="subjectScreen">
             <div class="logo">
-                <h1>📊 CA AMA Quiz</h1>
-                <p>Advanced Management Accounting - Past Papers 2020-2025</p>
+                <h1>📚 CA Exam Quiz</h1>
+                <p>Master Your CA Exams - AMA & Corporate Law</p>
+            </div>
+            
+            <div class="subject-selection">
+                <h2>Select Your Subject:</h2>
+                <div class="subjects">
+                    <div class="subject-card" data-subject="AMA">
+                        <div class="subject-icon">📊</div>
+                        <div class="subject-name">Advanced Management Accounting</div>
+                        <div class="subject-count" id="amaCount">60 Questions</div>
+                        <div class="subject-stats">
+                            <span class="stat-mini" id="amaAttempted">0 Attempted</span>
+                            <span class="stat-mini" id="amaAvg">0% Avg</span>
+                        </div>
+                    </div>
+                    
+                    <div class="subject-card" data-subject="Corporate Law">
+                        <div class="subject-icon">⚖️</div>
+                        <div class="subject-name">Corporate Law</div>
+                        <div class="subject-count" id="lawCount">60 Questions</div>
+                        <div class="subject-stats">
+                            <span class="stat-mini" id="lawAttempted">0 Attempted</span>
+                            <span class="stat-mini" id="lawAvg">0% Avg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overall-stats">
+                <h3>📈 Overall Performance</h3>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-value" id="overallAttempted">0</span>
+                        <span class="stat-label">Total Quizzes</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-value" id="overallAvg">0%</span>
+                        <span class="stat-label">Average Score</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-value" id="overallBest">0%</span>
+                        <span class="stat-label">Best Score</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Screen (Category Selection) -->
+        <div class="screen" id="startScreen">
+            <div class="back-button" id="backToSubjects">
+                ← Back to Subjects
+            </div>
+            
+            <div class="logo">
+                <h1 id="subjectTitle">📊 AMA Quiz</h1>
+                <p id="subjectSubtitle">Advanced Management Accounting</p>
             </div>
             
             <div class="category-selection">
@@ -90,6 +145,7 @@
             <div class="question-card">
                 <div class="question-meta">
                     <span class="question-year" id="questionYear"></span>
+                    <span class="subject-badge" id="currentSubject"></span>
                 </div>
                 <h2 class="question-text" id="questionText">Question will appear here</h2>
                 
@@ -120,7 +176,7 @@
             <div class="results-container">
                 <div class="results-header">
                     <h1>🎉 Quiz Completed!</h1>
-                    <p class="subject-result">Advanced Management Accounting</p>
+                    <p class="subject-result" id="subjectResult"></p>
                     <div class="score-circle">
                         <svg class="score-ring" viewBox="0 0 120 120">
                             <circle class="score-ring-bg" cx="60" cy="60" r="54"></circle>
@@ -162,7 +218,7 @@
                 <div class="results-actions">
                     <button class="btn btn-primary" id="reviewBtn">Review Answers 📝</button>
                     <button class="btn btn-secondary" id="retryBtn">Try Again 🔄</button>
-                    <button class="btn btn-secondary" id="homeBtn">Back to Home 🏠</button>
+                    <button class="btn btn-secondary" id="homeBtn">Change Subject 🏠</button>
                 </div>
             </div>
         </div>
