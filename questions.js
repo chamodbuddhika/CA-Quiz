@@ -925,8 +925,921 @@ const questionsDatabase = [
         correct: 3,
         explanation: "Large infrastructure projects require comprehensive social cost-benefit analysis including economic NPV/IRR (adjusting for economic rather than financial values), shadow pricing (for non-market goods), and social impacts.",
         year: "December 2022"
+    },
+    
+    
+    {
+        id: 61,
+        category: "Corporate Law - Company Fundamentals",
+        question: "Which statements about an incorporated company are correct? (i) It cannot own property in its name (ii) Its assets are separate from owners' assets (iii) Bank accounts must be in owners' names (iv) It can sue under its own name",
+        options: [
+            "(i) and (ii) only",
+            "(ii) and (iii) only",
+            "(ii) and (iv) only",
+            "(iii) and (iv) only"
+        ],
+        correct: 2,
+        explanation: "An incorporated company has separate legal personality - it can own property in its own name, has assets separate from owners, maintains its own bank accounts, and can sue/be sued independently.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 62,
+        category: "Corporate Law - Company Types",
+        question: "Which statements about companies limited by guarantee are correct? (i) Two Sri Lankans can apply to form one (ii) Members get dividends (iii) Charitable organizations can qualify (iv) Articles can be altered without Registrar approval",
+        options: [
+            "(i) and (iii) only",
+            "(ii) and (iv) only",
+            "(i), (ii) and (iv) only",
+            "(ii), (iii) and (iv) only"
+        ],
+        correct: 0,
+        explanation: "Companies limited by guarantee require at least 2 persons to form (i-true), are suitable for charitable work (iii-true), but members don't receive dividends (ii-false) and article changes need Registrar approval (iv-false).",
+        year: "December 2020"
+    },
+    
+    {
+        id: 63,
+        category: "Corporate Law - Case Law",
+        question: "Timber perished in a fire, belonging to a company where the insured was sole shareholder. This scenario relates to which case on separate legal personality?",
+        options: [
+            "Salomon v Salomon & Co Ltd",
+            "Macaura v Northern Assurance Co Ltd",
+            "De Costa v Bank of Ceylon",
+            "Lee v Lee's Air Farming Ltd"
+        ],
+        correct: 1,
+        explanation: "Macaura v Northern Assurance Co Ltd established that a shareholder has no insurable interest in company property, even as sole shareholder, because the company owns the assets, not the shareholder.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 64,
+        category: "Corporate Law - Foreign Exchange",
+        question: "Kamalesan (K), an Indian married to a Sri Lankan, qualifies as a resident under the Foreign Exchange Act if: (i) K is SL diplomat (ii) K stayed 183+ days in last 12 months (iii) K is SL citizen temporarily abroad <365 days (iv) K is SL citizen in India on resident visa",
+        options: [
+            "(i) and (ii) only",
+            "(i) and (iii) only",
+            "(ii) and (iv) only",
+            "(iii) and (iv) only"
+        ],
+        correct: 1,
+        explanation: "Under the Foreign Exchange Act, residents include SL diplomatic representatives (i) and SL citizens temporarily abroad for less than 365 days (iii). Indian nationals staying 183+ days and SL citizens on foreign resident visas don't automatically qualify.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 65,
+        category: "Corporate Law - Incorporation Advantages",
+        question: "Which statement is an advantage of incorporating a company over a sole proprietorship?",
+        options: [
+            "A company can raise more capital as it can issue shares",
+            "Less expenses required to establish a company",
+            "Owners need not pay tax as long as company pays tax",
+            "Owners have more control of daily management"
+        ],
+        correct: 0,
+        explanation: "The primary advantage of incorporation is the ability to raise capital through share issuance. Incorporation is more expensive than sole proprietorship, and both company and shareholders may pay tax. Control is more diluted in companies.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 66,
+        category: "Corporate Law - Overseas Companies",
+        question: "PW Pty Ltd (Australia, incorporated 2005) wants to open a Sri Lankan branch. Which statements are correct? (i) Need not register as existed before Act (ii) Must register before establishing (iii) Deliver documents within 1 month (iv) Constitution copy must be submitted",
+        options: [
+            "(i) only",
+            "(i) and (iv) only",
+            "(ii) and (iv) only",
+            "(iii) and (iv) only"
+        ],
+        correct: 3,
+        explanation: "Overseas companies must deliver specified documents to the Registrar within one month of establishing business (iii) and submit a certified constitution copy (iv), regardless of incorporation date.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 67,
+        category: "Corporate Law - Lifting the Veil",
+        question: "Which is the most likely situation where courts may lift the veil of incorporation?",
+        options: [
+            "When number of shareholders exceeds two",
+            "When company used as cover for wrongdoings of another party",
+            "When company covers up negligent act of board",
+            "When company deliberately avoids contract obligations"
+        ],
+        correct: 1,
+        explanation: "Courts lift the corporate veil when the company is used as a facade or sham to conceal the true facts or to avoid legal obligations, particularly when used as a cover for wrongdoing.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 68,
+        category: "Corporate Law - Company Features",
+        question: "Which is an important feature of a limited liability company?",
+        options: [
+            "Has separate legal personality when issued capital exceeds amount in Articles",
+            "Has perpetual succession as long as Companies Act under which incorporated is in force",
+            "Liability is unlimited even though name says 'Limited'",
+            "Shares are freely transferable, subject to Articles"
+        ],
+        correct: 3,
+        explanation: "Limited liability companies have freely transferable shares subject to restrictions in the Articles. They have perpetual succession regardless of the Act, separate personality from incorporation, and limited liability for members.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 69,
+        category: "Corporate Law - Overseas Company Obligations",
+        question: "Which statements about registered overseas companies in Sri Lanka are correct? (i) Deliver documents within 6 months (ii) Can operate liaison office if no income (iii) Must prepare financial statements annually like SL companies (iv) Need not mention incorporation country in prospectus",
+        options: [
+            "(i) and (iv) only",
+            "(ii) and (iii) only",
+            "(i), (ii) and (iii) only",
+            "(ii), (iii) and (iv) only"
+        ],
+        correct: 1,
+        explanation: "Overseas companies can operate liaison offices if they don't generate income (ii) and must prepare annual financial statements like SL companies (iii). Documents must be delivered within specified shorter timeframe, and country of incorporation must be stated.",
+        year: "December 2020"
+    },
+    
+    {
+        id: 70,
+        category: "Corporate Law - Land Restrictions",
+        question: "Which statements about the Land Restriction on Alienation Act are correct? (i) Restricts alienation to foreigners (ii) Prevents SL companies with 50%+ foreign shareholding from holding land (iii) Allows SL companies with 50%+ foreign individual shareholding to hold land (iv) Allows such companies to lease land up to 33 years",
+        options: [
+            "(i) only",
+            "(iii) only",
+            "(i) and (ii) only",
+            "(i), (iii) and (iv) only"
+        ],
+        correct: 0,
+        explanation: "The Act restricts land alienation to foreigners (i-true). SL companies with 50%+ foreign shareholding (whether corporate or individual) face restrictions on land ownership, not permissions as suggested in other options.",
+        year: "December 2020"
+    },
+    
+    // December 2021 - 10 Questions
+    
+    {
+        id: 71,
+        category: "Corporate Law - Pre-incorporation Contracts",
+        question: "A company is permitted by law to enter into contracts before its incorporation in relation to:",
+        options: [
+            "obtaining a listing in the Colombo Stock Exchange",
+            "purchasing a land through its promoters",
+            "securing bank loans which do not require ratification once incorporated",
+            "sale of assets by its directors"
+        ],
+        correct: 1,
+        explanation: "Pre-incorporation contracts can be entered through promoters for essential activities like land purchase. These contracts require ratification after incorporation. Listing, loans, and director actions occur post-incorporation.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 72,
+        category: "Corporate Law - Dirisavi Board Listing",
+        question: "Which statements about Dirisavi Board (DB) listing are correct? (i) DB is main board of CSE (ii) Requires stated capital ≥Rs. 100M (iii) Needs 2 years operating history (iv) Must have positive net assets",
+        options: [
+            "(i) and (iii) only",
+            "(ii) and (iv) only",
+            "(i), (ii) and (iii) only",
+            "(i), (ii) and (iv) only"
+        ],
+        correct: 1,
+        explanation: "Dirisavi Board requires Rs. 100M+ stated capital (ii) and positive net assets (iv). It's not the main board (i-false) and the operating history requirement differs (iii-false).",
+        year: "December 2021"
+    },
+    
+    {
+        id: 73,
+        category: "Corporate Law - Company Forms",
+        question: "Which forms relate to incorporating a private limited company? (i) Form 1: Registration (ii) Form 6: Notice of Share Issue (iii) Form 18: Director Consent (iv) Form 19: Secretary Consent",
+        options: [
+            "(i) and (ii) only",
+            "(iii) and (iv) only",
+            "(i), (ii) and (iii) only",
+            "(i), (iii) and (iv) only"
+        ],
+        correct: 3,
+        explanation: "Incorporation requires Form 1 (registration), Form 18 (director consent), and Form 19 (secretary consent). Form 6 (share issue notice) is filed after incorporation, not during.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 74,
+        category: "Corporate Law - Residency Definition",
+        question: "Who is considered a Sri Lankan resident under the Foreign Exchange Act?",
+        options: [
+            "Diplomatic representatives of foreign countries when they arrive",
+            "Foreigners married to SL citizens if stayed 3+ consecutive years",
+            "SL citizens who left temporarily for not more than 3 months",
+            "Companies incorporated in Sri Lanka, including registered overseas companies"
+        ],
+        correct: 3,
+        explanation: "Companies incorporated in Sri Lanka (including registered overseas companies) are considered residents. Foreign diplomats and foreigners married to SL citizens don't automatically qualify. The temporary absence period for citizens is longer than 3 months.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 75,
+        category: "Corporate Law - Company Name Recognition",
+        question: "If a company's name is 'Suwa Sawiya Ltd', it is recognized as a:",
+        options: [
+            "Limited Company",
+            "Public Limited Company",
+            "Private Limited Company",
+            "Company Limited by Guarantee"
+        ],
+        correct: 0,
+        explanation: "'Ltd' (without brackets) indicates a public Limited Company. Private companies use '(Pvt) Ltd' or '(Private) Limited'. Companies limited by guarantee may omit 'Limited' with approval.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 76,
+        category: "Corporate Law - Overseas Company Documents",
+        question: "Which document must overseas companies deliver to the Registrar when establishing business in Sri Lanka?",
+        options: [
+            "List of shareholders with full names and addresses",
+            "List of directors with details required for register of directors",
+            "Full name and address of auditor",
+            "Names and branches of all domestic banks where accounts are held"
+        ],
+        correct: 1,
+        explanation: "Overseas companies must provide a list of directors with required details for the register of directors. Shareholder lists, auditor details, and bank account information are not required at registration.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 77,
+        category: "Corporate Law - Company Limited by Guarantee",
+        question: "Which is a salient feature of a company limited by guarantee?",
+        options: [
+            "Must issue shares to owners on incorporation date",
+            "Shareholders entitled to annual dividends",
+            "Minimum of two persons must apply for formation",
+            "Name must always end with 'Limited'"
+        ],
+        correct: 2,
+        explanation: "Companies limited by guarantee require minimum 2 persons to form. They don't issue shares or pay dividends. With Registrar approval, they can dispense with 'Limited' in their name.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 78,
+        category: "Corporate Law - Voluntary Winding Up",
+        question: "Which instances allow voluntary winding up? (i) Creditor's voluntary when insolvent (ii) Member's voluntary when solvent (iii) Special resolution due to liabilities (iv) Majority decision with solvency declaration",
+        options: [
+            "(i) and (iii) only",
+            "(ii) and (iii) only",
+            "(i), (ii) and (iii) only",
+            "(ii), (iii) and (iv) only"
+        ],
+        correct: 2,
+        explanation: "Voluntary winding up includes: creditor's voluntary (insolvency), member's voluntary (solvency with director's declaration), and special resolution due to liabilities. Majority decisions without proper procedures are insufficient.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 79,
+        category: "Corporate Law - Winding Up Procedure",
+        question: "Under Companies Winding Up Rules 1939, which is a correct step?",
+        options: [
+            "Copy of application sent to Judicial Service Commission",
+            "Petitioner serves notice to all registered companies",
+            "Interested parties inform Judicial Service Commission of intention",
+            "Opposing party tenders documents to court within stipulated time"
+        ],
+        correct: 3,
+        explanation: "Parties opposing winding up must tender relevant documents to court within the stipulated timeframe. The Judicial Service Commission is not involved; notice isn't served to all companies.",
+        year: "December 2021"
+    },
+    
+    {
+        id: 80,
+        category: "Corporate Law - SEC Powers",
+        question: "Which are correct powers/duties of the Securities and Exchange Commission? (i) Issue stockbroker licenses (ii) Conduct arbitration for investors (iii) Regulate listing and securities issuance (iv) Function as CA Sri Lanka's statutory financial advisor",
+        options: [
+            "(i) and (ii) only",
+            "(i) and (iii) only",
+            "(ii) and (iv) only",
+            "(iii) and (iv) only"
+        ],
+        correct: 1,
+        explanation: "SEC issues stockbroker licenses (i) and regulates listing/securities issuance (iii). It doesn't conduct arbitration or serve as CA Sri Lanka's statutory financial advisor.",
+        year: "December 2021"
+    },
+    
+    // December 2022 - 10 Questions
+    
+    {
+        id: 81,
+        category: "Corporate Law - Document Requirements",
+        question: "Which documents are required at a company's registered office? (i) Certificate of incorporation and articles (ii) Management meeting minutes (iii) Share register, director/secretary registers (iv) Shareholder meeting minutes from last 10 years",
+        options: [
+            "(ii) and (iii) only",
+            "(iii) and (iv) only",
+            "(i), (ii) and (iii) only",
+            "(i), (iii) and (iv) only"
+        ],
+        correct: 3,
+        explanation: "Required documents: certificate of incorporation, articles, share register, director/secretary registers, and shareholder meeting minutes/resolutions from last 10 years. Management meeting minutes aren't statutorily required at registered office.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 82,
+        category: "Corporate Law - Annual General Meetings",
+        question: "In relation to AGMs under the Companies Act:",
+        options: [
+            "Subsequent AGMs must be within 6 months of balance sheet date",
+            "Shareholders have duty to call AGM",
+            "All AGMs must be within 12 months of previous AGM",
+            "First AGM must be held in calendar year of incorporation"
+        ],
+        correct: 2,
+        explanation: "AGMs must be held within 15 months of the previous AGM (not 12 months as stated). Directors (not shareholders) call AGMs. First AGM timing and balance sheet date requirements differ from stated options.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 83,
+        category: "Corporate Law - Winding Up Process",
+        question: "In a winding up process:",
+        options: [
+            "Assets are realised to pay liabilities",
+            "Surplus is distributed amongst shareholders and auditor",
+            "Company is treated as dissolved at commencement",
+            "All assets are taken over by the State"
+        ],
+        correct: 0,
+        explanation: "Winding up involves realizing assets to pay liabilities. Surplus goes to shareholders only (not auditor). Company dissolves at completion, not commencement. Assets aren't taken by the State.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 84,
+        category: "Corporate Law - Administrator Appointment",
+        question: "Which is correct about an administrator under the Companies Act?",
+        options: [
+            "Court can only appoint one administrator per company",
+            "Board must obtain court approval before appointing administrator",
+            "Administrator may not be appointed if winding up order made",
+            "Administrator may be appointed even when receiver appointed"
+        ],
+        correct: 3,
+        explanation: "An administrator can be appointed even when a receiver exists. Multiple administrators are possible, board appointment doesn't always need court approval, and administrators can be appointed before winding up orders.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 85,
+        category: "Corporate Law - Overseas Company Restrictions",
+        question: "Which activities are prohibited for overseas companies in Sri Lanka?",
+        options: [
+            "Production of quota-restricted export goods",
+            "Growing and primary processing of sugar, cocoa, spices",
+            "Timber-based industries using local timber",
+            "Coastal fishing, pawn broking, freight forwarding"
+        ],
+        correct: 3,
+        explanation: "Overseas companies are prohibited from coastal fishing, pawn broking, and freight forwarding. Other activities may be permitted subject to regulations.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 86,
+        category: "Corporate Law - Inward Investment Accounts",
+        question: "An Inward Investment Account (IIA):",
+        options: [
+            "is used by foreign entities for sale of goods/services to Sri Lanka",
+            "enables investors in/outside SL to route funds for permitted investments in SL",
+            "enables investors to route funds for any investment in SL",
+            "has no investment limit when made by foreigners in SL companies"
+        ],
+        correct: 1,
+        explanation: "IIAs enable investors (resident in or outside SL) to channel funds for permitted investments in Sri Lanka. They're subject to regulations and limits, and used for specific investment types, not general sales.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 87,
+        category: "Corporate Law - Companies Limited by Guarantee",
+        question: "Which is correct about companies limited by guarantee?",
+        options: [
+            "Can issue shares to members similar to limited companies",
+            "Members have no obligation to contribute on liquidation",
+            "Members give guarantee undertaking and aren't entitled to dividends",
+            "Members' role similar to other company types"
+        ],
+        correct: 2,
+        explanation: "Companies limited by guarantee don't issue shares; members provide a guarantee to contribute a specified amount on liquidation and don't receive dividends. Their role differs significantly from shareholders in other company types.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 88,
+        category: "Corporate Law - Land Purchase Notification",
+        question: "Under the Land Restriction on Alienation Act, when a company purchases land, the company secretary must inform the Registrar that:",
+        options: [
+            "Every 3 months for 6 months, foreign shareholding hasn't exceeded 40%",
+            "For 6 months from deed date, share issues haven't exceeded 50%",
+            "For 6 months, all land transactions including maintenance",
+            "At purchase time, foreign shareholding was less than 50%"
+        ],
+        correct: 3,
+        explanation: "The company secretary must confirm at time of purchase that foreign shareholding was less than 50% of total issued shares. Ongoing monitoring requirements apply for 6 months.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 89,
+        category: "Corporate Law - Overseas Company Registration",
+        question: "To register an overseas company in Sri Lanka, which documents must be filed? (i) Constitution copy (ii) Director list with required details (iii) Intended non-SL employee list (iv) Registered office address and principal business place",
+        options: [
+            "(i) and (ii) only",
+            "(ii) and (iii) only",
+            "(i), (ii) and (iv) only",
+            "(ii), (iii) and (iv) only"
+        ],
+        correct: 2,
+        explanation: "Required documents: certified constitution copy, director list with Act-required details, and address of registered/principal office. Employee lists aren't required at registration.",
+        year: "December 2022"
+    },
+    
+    {
+        id: 90,
+        category: "Corporate Law - Official Receiver",
+        question: "The 'official receiver' in a court winding up:",
+        options: [
+            "is an officer of company appointed to conduct dissolution",
+            "is appointed by shareholders through special resolution",
+            "is attached to the court involved in winding up",
+            "must pay company debts if company unable"
+        ],
+        correct: 2,
+        explanation: "The official receiver is a court officer (not company officer) attached to the court handling the winding up. Not appointed by shareholders or personally liable for company debts.",
+        year: "December 2022"
+    },
+    
+    // December 2023 - 10 Questions
+    
+    {
+        id: 91,
+        category: "Corporate Law - Companies Limited by Guarantee",
+        question: "Which statement about a company limited by guarantee is correct?",
+        options: [
+            "Issues shares and obtains guarantee from members to contribute on liquidation",
+            "Members entitled to dividends on profit-making",
+            "Commonly used for charitable/non-profit organizations funded by grants",
+            "Licensed bank dispensing 'limited' becomes company limited by guarantee"
+        ],
+        correct: 2,
+        explanation: "Companies limited by guarantee are typically used for charitable/non-profit organizations funded by grants. They don't issue shares or pay dividends. Banks dispensing 'limited' don't become guarantee companies.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 92,
+        category: "Corporate Law - Overseas Company Compliance",
+        question: "Which statement about overseas company requirements in Sri Lanka is correct?",
+        options: [
+            "Must deliver profit statement from last 3 years",
+            "Must deliver constitution, incorporation evidence, director list",
+            "If established before Act, not bound by these provisions",
+            "Once documents delivered, exempt from Foreign Exchange Act"
+        ],
+        correct: 1,
+        explanation: "Overseas companies must deliver to Registrar: constitution copy, evidence of incorporation, and director list. Profit statements aren't required initially. Prior existence doesn't exempt compliance. Foreign Exchange Act still applies.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 93,
+        category: "Corporate Law - Land Alienation Restrictions",
+        question: "Which restriction under the Land Restrictions Act is correct?",
+        options: [
+            "SL company with 60%+ foreign shareholding permitted to hold land",
+            "SL company with <50% foreign shareholding can hold land if stays <50% for 20 years",
+            "Foreign company can own land if doesn't dispose for 25 years",
+            "Foreign national permitted to lease land up to max 50 years"
+        ],
+        correct: 1,
+        explanation: "SL companies with less than 50% foreign shareholding can hold land, provided foreign shareholding remains below 50% for 20 years from purchase. Other options incorrectly state the restrictions.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 94,
+        category: "Corporate Law - Inward Investment Accounts",
+        question: "Which statement about Inward Investment Accounts (IIAs) is correct?",
+        options: [
+            "Can be opened in domestic banking units of licensed commercial and specialized banks",
+            "Foreign currency can be routed out of SL only through such accounts",
+            "Transactions must be conducted in local currency",
+            "Special accounts for eligible investors outside SL to route funds towards foreign investments"
+        ],
+        correct: 0,
+        explanation: "IIAs can be opened in domestic banking units of licensed commercial banks and specialized banks. They're for routing funds into (not out of) Sri Lanka for permitted investments, and operate in foreign currency.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 95,
+        category: "Corporate Law - Auditor Provisions",
+        question: "Which provision about auditors under the Companies Act is correct?",
+        options: [
+            "Auditor of guarantee company appointed by Auditor General",
+            "Casual vacancy filled by ordinary resolution of shareholders",
+            "First auditor may be appointed by board of directors",
+            "Only CA Sri Lanka member or registered company secretary can be auditor"
+        ],
+        correct: 2,
+        explanation: "The first auditor can be appointed by the board of directors. Guarantee company auditors aren't appointed by Auditor General. Casual vacancies and qualifications have different requirements than stated.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 96,
+        category: "Corporate Law - Outward Investment Accounts",
+        question: "Which is correct about Outward Investment Accounts (OIAs) under the Foreign Exchange Act?",
+        options: [
+            "Used by foreign firms to remit funds to Sri Lanka",
+            "Can only be opened in local currency",
+            "Can only be opened in Central Bank by resident investors",
+            "Enable persons resident in SL to channel funds abroad for eligible overseas investments"
+        ],
+        correct: 3,
+        explanation: "OIAs enable Sri Lankan residents to channel funds abroad for eligible overseas investments. They're opened in authorized banks (not just CBSL), operate in foreign currency, and are for outward (not inward) investment.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 97,
+        category: "Corporate Law - Overseas Company Financial Statements",
+        question: "Which provisions on overseas company financial statements are correct? (i) Must prepare for each calendar year (ii) Can submit either group or subsidiary statements (iii) Should be in official SL language or English (iv) Act has no provisions",
+        options: [
+            "(ii) only",
+            "(iv) only",
+            "(i) and (iii) only",
+            "(ii) and (iii) only"
+        ],
+        correct: 2,
+        explanation: "Overseas companies must prepare financial statements for each calendar year (i) and submit them in an official Sri Lankan language or English (iii). The Act does contain provisions, and group statement requirements differ.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 98,
+        category: "Corporate Law - Overseas Company Obligations",
+        question: "Which statement about registered overseas companies in Sri Lanka is correct?",
+        options: [
+            "Cannot issue prospectus inviting subscriptions for shares/debentures",
+            "Obligations to deliver documents to Registrar don't cease if business ceases",
+            "If name on invoices/letters, exempt from displaying country of incorporation",
+            "If members' liability limited, must display this at business place"
+        ],
+        correct: 3,
+        explanation: "If members' liability is limited, this must be displayed at the business place. Overseas companies can issue prospectuses subject to regulations. Obligations cease when business ceases. Country of incorporation must always be stated.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 99,
+        category: "Corporate Law - Company Secretary Role",
+        question: "Which statement about company secretaries is correct?",
+        options: [
+            "Role clearly defined in Salomon v Salomon case",
+            "Only ICSSL member can function as registered company secretary",
+            "Company secretary treated as chief operations officer (COO)",
+            "Directors have power to appoint company secretary, subject to Articles"
+        ],
+        correct: 3,
+        explanation: "Directors have power to appoint the company secretary, subject to the Articles. The role wasn't defined in Salomon case. Other qualified persons can serve. Company secretary isn't the COO.",
+        year: "December 2023"
+    },
+    
+    {
+        id: 100,
+        category: "Corporate Law - Derivative Actions",
+        question: "Which statements about derivative actions are correct? (i) Detrimental to minority shareholders (ii) Initially devised as exception to Foss v Harbottle (iii) Brought by shareholder on behalf of company when company fails to act in shareholders' best interest (iv) Brought to redress wrong to company by shareholders",
+        options: [
+            "(ii) only",
+            "(iv) only",
+            "(i) and (iii) only",
+            "(ii) and (iv) only"
+        ],
+        correct: 0,
+        explanation: "Derivative actions were devised as an exception to the rule in Foss v Harbottle (ii-true). They benefit (not harm) minority shareholders, are brought when wrongdoers control the company (not just when company fails to act), and redress wrongs to the company (not necessarily by shareholders).",
+        year: "December 2023"
+    },
+    
+    // December 2024 - 10 Questions
+    
+    {
+        id: 101,
+        category: "Corporate Law - Director Types",
+        question: "Which statement about directors is true?",
+        options: [
+            "Executive director responsibilities must be outlined in articles",
+            "Executive director need not be permanent employee",
+            "Day-to-day management always done by non-executive directors",
+            "Non-executive directors' responsibilities include monitoring executive directors"
+        ],
+        correct: 3,
+        explanation: "Non-executive directors monitor executive directors as part of their oversight role. Executive directors handle day-to-day management, may be permanent employees, and their responsibilities aren't necessarily in articles.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 102,
+        category: "Corporate Law - Share Types",
+        question: "Jani and Rani describe shares ranked higher than ordinary shares, with fixed dividends, return of capital on winding up, and priority in distributions. What type are these?",
+        options: [
+            "Preference shares",
+            "Non-voting shares",
+            "Deferred shares",
+            "Redeemable shares"
+        ],
+        correct: 0,
+        explanation: "Preference shares are ranked higher than ordinary shares, typically receive fixed dividends, have priority on winding up for capital return, and get priority in dividend distributions.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 103,
+        category: "Corporate Law - Dividends",
+        question: "Which statement about dividends is correct?",
+        options: [
+            "Dividend is payment from profits to employees",
+            "Dividend is mandatory annual payment to shareholders",
+            "Court can intervene when dividends unreasonably restricted",
+            "Satisfying solvency test not required for dividend declaration"
+        ],
+        correct: 2,
+        explanation: "Courts can intervene in cases of unreasonable dividend restriction. Dividends are paid to shareholders (not employees), aren't mandatory, and require satisfying the solvency test before declaration.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 104,
+        category: "Corporate Law - Land Purchase Responsibilities",
+        question: "When Gunny Bags (Pvt) Ltd purchases land, what is the company secretary's responsibility under the Land Restrictions Act?",
+        options: [
+            "Submit proof foreign shareholding was <50% at purchase time",
+            "Submit confirmation foreign shareholding will stay <60% for 5 years",
+            "Inform Registrar every 3 months about foreign shareholding status",
+            "Inform Registrar every 6 months about all land transactions"
+        ],
+        correct: 0,
+        explanation: "Company secretary must submit documentary proof that foreign shareholding was less than 50% at time of purchase. Ongoing monitoring and other requirements differ from stated options.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 105,
+        category: "Corporate Law - Foreign Investment Restrictions",
+        question: "Ravindra Ghopal (Indian) considers investing in SL companies: (i) 100% in tea growing (ii) 60% in educational institute (iii) 40% in freight forwarding (iv) 20% in travel agency. Which are permitted?",
+        options: [
+            "(i) only",
+            "(iii) only",
+            "(ii) and (iii) only",
+            "(iii) and (iv) only"
+        ],
+        correct: 3,
+        explanation: "Under the Foreign Exchange Act, freight forwarding (40%) and travel agency (20%) investments are permitted. Tea growing (100%) and educational institutes (60%) face restrictions for foreign investors.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 106,
+        category: "Corporate Law - Company Secretary Authority",
+        question: "Which case first laid down the principle that a company secretary can sign contracts for administrative matters like employing staff and ordering cars, which bind the company through ostensible authority?",
+        options: [
+            "Foss v Harbottle",
+            "Panorama Developments (Guildford) Ltd v Fidelis Furnishing Fabrics Ltd",
+            "Belgravia Executive Car Rental v Fidelis Furnishing Fabrics Ltd",
+            "Panorama Developments (Guildford) Ltd v Bayne"
+        ],
+        correct: 1,
+        explanation: "Panorama Developments v Fidelis Furnishing Fabrics established that company secretaries have ostensible authority to bind the company in administrative contracts like employment and procurement.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 107,
+        category: "Corporate Law - Annual General Meetings",
+        question: "Which statement about AGMs under the Companies Act is correct?",
+        options: [
+            "Statutory duty on shareholders to call AGM annually",
+            "Act doesn't exempt company from conducting AGM for any year",
+            "AGM must be within 6 months of balance sheet date and ≤15 months after previous AGM",
+            "Initial AGM must be held in year of incorporation"
+        ],
+        correct: 2,
+        explanation: "AGMs must be held within 6 months of balance sheet date and not later than 15 months after previous AGM. Directors (not shareholders) call AGMs. Exemptions may apply. First AGM timing requirements differ.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 108,
+        category: "Corporate Law - Resolutions",
+        question: "Which statements about resolutions are correct? (i) Special resolution for name change (ii) Board resolution sufficient for article amendments (iii) Ordinary resolution for auditor appointment (iv) Ordinary resolution for stated capital reduction",
+        options: [
+            "(i) and (iii) only",
+            "(ii) and (iv) only",
+            "(i), (iii) and (iv) only",
+            "(ii), (iii) and (iv) only"
+        ],
+        correct: 0,
+        explanation: "Special resolution required for name change (i-true) and ordinary resolution for auditor appointment (iii-true). Article amendments need shareholder special resolution (ii-false). Capital reduction needs special resolution (iv-false).",
+        year: "December 2024"
+    },
+    
+    {
+        id: 109,
+        category: "Corporate Law - Financial Statements",
+        question: "Which statement about company financial statements is correct?",
+        options: [
+            "Provisions only laid down in SLFRSs",
+            "Companies Act requires keeping accounting records that correctly record transactions",
+            "CFO held responsible for failure to maintain statements, not directors",
+            "Maintaining financial statements is duty of shareholders"
+        ],
+        correct: 1,
+        explanation: "The Companies Act requires companies to keep accounting records correctly recording transactions. Provisions exist in both Act and SLFRSs. Directors (not just CFO or shareholders) are responsible.",
+        year: "December 2024"
+    },
+    
+    {
+        id: 110,
+        category: "Corporate Law - Foreign Land Transactions",
+        question: "John wants to buy Galle land. James wants to lease Colombo land for 5 years. Under the Land Restrictions Act, which is correct?",
+        options: [
+            "Only Transaction 1 (purchase) allowed",
+            "Only Transaction 2 (lease) allowed",
+            "Both transactions allowed",
+            "Both transactions not allowed"
+        ],
+        correct: 3,
+        explanation: "Under the Land Restrictions Act, foreign nationals are generally restricted from both purchasing land and taking short-term leases in Sri Lanka. Both John's purchase and James's 5-year lease face prohibitions.",
+        year: "December 2024"
+    },
+    
+    // June 2025 - 10 Questions
+    
+    {
+        id: 111,
+        category: "Corporate Law - Winding Up Process",
+        question: "Which statement about winding up is correct?",
+        options: [
+            "Company treated as having no existence from commencement",
+            "Process where assets realised, liabilities paid, surplus distributed to shareholders",
+            "Only court can initiate winding up under SL law",
+            "Surplus can only be distributed after court approval"
+        ],
+        correct: 1,
+        explanation: "Winding up involves realizing assets, paying liabilities, and distributing remaining surplus to shareholders. Company dissolves at completion (not commencement). Voluntary winding up doesn't need court initiation. Court approval for surplus isn't always required.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 112,
+        category: "Corporate Law - Listing Requirements",
+        question: "According to CSE Listing Rules, a listed entity on Main/Dirisavi Board must maintain:",
+        options: [
+            "minimum number of subsidiaries per year",
+            "minimum public holding of its securities",
+            "maximum public holding of its securities",
+            "minimum number of announcements per year"
+        ],
+        correct: 1,
+        explanation: "Listed entities must maintain a minimum public holding (public float) of their securities as per continuing listing requirements. Subsidiary numbers, maximum holdings, and announcement minimums aren't mandatory requirements.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 113,
+        category: "Corporate Law - Auditor Rights",
+        question: "The board must ensure the auditor is permitted to attend every meeting of the company's:",
+        options: [
+            "directors",
+            "creditors",
+            "debtors",
+            "shareholders"
+        ],
+        correct: 3,
+        explanation: "Auditors have the right to attend and be heard at shareholders' meetings. While they may attend director meetings, the statutory right is specifically for shareholder meetings.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 114,
+        category: "Corporate Law - Inability to Pay Debts",
+        question: "Breakdown (Pvt) Ltd is deemed unable to pay debts if it fails to pay an admitted debt exceeding _____ within _____ of statutory demand.",
+        options: [
+            "Rs. 1,000,000; 1 month",
+            "Rs. 500,000; 3 weeks",
+            "Rs. 100,000; 1 month",
+            "Rs. 50,000; 3 weeks"
+        ],
+        correct: 2,
+        explanation: "Under the Companies Act, a company is deemed unable to pay debts if it fails to pay an admitted debt exceeding Rs. 100,000 within one month of receiving a statutory demand from the creditor.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 115,
+        category: "Corporate Law - Voluntary Winding Up Grounds",
+        question: "A ground for voluntary winding up would be:",
+        options: [
+            "When company has no directors",
+            "When court appoints liquidator to sell assets and pay debts",
+            "When number of members fall below statutory minimum",
+            "When company resolves by special resolution to wind up as unable to settle liabilities"
+        ],
+        correct: 3,
+        explanation: "Special resolution to wind up due to inability to settle liabilities is a ground for voluntary winding up. Court appointment indicates compulsory winding up. No directors or insufficient members may trigger compulsory winding up.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 116,
+        category: "Corporate Law - Liquidator Powers",
+        question: "Which is correct about a liquidator in winding up?",
+        options: [
+            "Liquidator and official receiver are the same person",
+            "Appointed by shareholders to monitor solvency",
+            "Legally empowered to institute lawsuits, collect receivables, dispose assets, pay debts",
+            "Appointed only in creditor's voluntary winding up"
+        ],
+        correct: 2,
+        explanation: "Liquidators are empowered to institute/defend lawsuits, collect receivables, dispose of assets, and pay debts on behalf of the company. They differ from official receivers, aren't solely for monitoring solvency, and appointed in various winding up types.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 117,
+        category: "Corporate Law - Listed Securities Definition",
+        question: "The SEC Act defines 'listed securities' as securities listed:",
+        options: [
+            "on a licensed exchange",
+            "and lodged with Central Bank of Sri Lanka",
+            "with the Controller of Foreign Exchange",
+            "with the Ministry of Finance"
+        ],
+        correct: 0,
+        explanation: "Listed securities are defined as securities listed on a licensed exchange (like the Colombo Stock Exchange). They're not defined by lodging with CBSL, Controller of Foreign Exchange, or Ministry of Finance.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 118,
+        category: "Corporate Law - Director-Shareholder Division",
+        question: "Which statement about director-shareholder power division is correct?",
+        options: [
+            "Shareholder automatically assumes director role by virtue of shareholding",
+            "Shareholders provide capital, delegate power to directors who manage business",
+            "Director must always hold at least one share to function in dual capacity",
+            "Shareholder powers from shareholding derived from Act, cannot be modified by Articles"
+        ],
+        correct: 1,
+        explanation: "Shareholders provide capital and delegate power to directors for management. Shareholding doesn't automatically confer directorship. Directors need not hold shares. Articles can modify certain shareholder powers.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 119,
+        category: "Corporate Law - CSE Boards",
+        question: "The Alternate Market segment comprises the Multi Currency Board and:",
+        options: [
+            "Main Board",
+            "Monetary Board",
+            "Empower Board",
+            "Diri Savi Board"
+        ],
+        correct: 2,
+        explanation: "The Alternate Market comprises the Multi Currency Board and the Empower Board (for SMEs). Main Board and Diri Savi Board are separate listing segments, not part of Alternate Market.",
+        year: "June 2025"
+    },
+    
+    {
+        id: 120,
+        category: "Corporate Law - Liquidator Appointment",
+        question: "Which is correct about liquidator appointment provisions?",
+        options: [
+            "Official receiver automatically becomes liquidator during vacancy",
+            "Courts prevented from intervening if creditors and contributories disagree",
+            "If court permits, even a creditor can be appointed as liquidator",
+            "Any shareholder or former shareholder can be appointed as liquidator"
+        ],
+        correct: 2,
+        explanation: "With court permission, even a creditor can be appointed as liquidator in certain circumstances. Official receiver doesn't automatically become liquidator. Courts can intervene in disputes. Shareholders generally cannot be liquidators without special court approval.",
+        year: "June 2025"
     }
 ];
+
+
 
 // Export for use in the app
 if (typeof module !== 'undefined' && module.exports) {
