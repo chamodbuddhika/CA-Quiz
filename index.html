@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA AMA Quiz - Advanced Management Accounting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Start Screen -->
+        <div class="screen active" id="startScreen">
+            <div class="logo">
+                <h1>📊 CA AMA Quiz</h1>
+                <p>Advanced Management Accounting - Past Papers 2020-2025</p>
+            </div>
+            
+            <div class="category-selection">
+                <h2>Select Category:</h2>
+                <div class="categories" id="categories">
+                    <!-- Categories will be loaded dynamically -->
+                </div>
+            </div>
+
+            <div class="quiz-settings">
+                <div class="setting-item">
+                    <label for="questionCount">Number of Questions:</label>
+                    <select id="questionCount">
+                        <option value="5">5 Questions</option>
+                        <option value="10" selected>10 Questions</option>
+                        <option value="15">15 Questions</option>
+                        <option value="20">20 Questions</option>
+                        <option value="all">All Questions</option>
+                    </select>
+                </div>
+
+                <div class="setting-item">
+                    <label for="timerToggle">
+                        <input type="checkbox" id="timerToggle" checked>
+                        Enable Timer (2 min per question)
+                    </label>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-large" id="startBtn">Start Quiz 🚀</button>
+
+            <div class="stats-preview">
+                <div class="stat-box">
+                    <span class="stat-value" id="totalAttempted">0</span>
+                    <span class="stat-label">Total Attempted</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-value" id="avgScore">0%</span>
+                    <span class="stat-label">Average Score</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-value" id="bestScore">0%</span>
+                    <span class="stat-label">Best Score</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div class="screen" id="quizScreen">
+            <!-- Header -->
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <span class="category-badge" id="currentCategory">Category</span>
+                    <span class="question-counter" id="questionCounter">Question 1/10</span>
+                </div>
+                <div class="timer" id="timer">
+                    <span class="timer-icon">⏱️</span>
+                    <span class="timer-value" id="timerValue">2:00</span>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="question-card">
+                <div class="question-meta">
+                    <span class="question-year" id="questionYear"></span>
+                </div>
+                <h2 class="question-text" id="questionText">Question will appear here</h2>
+                
+                <div class="options" id="optionsContainer">
+                    <!-- Options will be loaded dynamically -->
+                </div>
+
+                <div class="question-actions">
+                    <button class="btn btn-bookmark" id="bookmarkBtn">
+                        <span class="bookmark-icon">🔖</span> Bookmark
+                    </button>
+                    <button class="btn btn-flag" id="flagBtn">
+                        <span class="flag-icon">🚩</span> Flag for Review
+                    </button>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="quiz-navigation">
+                <button class="btn btn-secondary" id="prevBtn" disabled>← Previous</button>
+                <button class="btn btn-primary" id="nextBtn">Next →</button>
+                <button class="btn btn-danger" id="submitBtn" style="display:none;">Submit Quiz ✓</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div class="screen" id="resultsScreen">
+            <div class="results-container">
+                <div class="results-header">
+                    <h1>🎉 Quiz Completed!</h1>
+                    <p class="subject-result">Advanced Management Accounting</p>
+                    <div class="score-circle">
+                        <svg class="score-ring" viewBox="0 0 120 120">
+                            <circle class="score-ring-bg" cx="60" cy="60" r="54"></circle>
+                            <circle class="score-ring-fill" cx="60" cy="60" r="54" id="scoreRing"></circle>
+                        </svg>
+                        <div class="score-text">
+                            <span class="score-percentage" id="scorePercentage">0%</span>
+                            <span class="score-label">Score</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-stats">
+                    <div class="result-stat correct">
+                        <span class="result-icon">✓</span>
+                        <div>
+                            <span class="result-value" id="correctCount">0</span>
+                            <span class="result-label">Correct</span>
+                        </div>
+                    </div>
+                    <div class="result-stat wrong">
+                        <span class="result-icon">✗</span>
+                        <div>
+                            <span class="result-value" id="wrongCount">0</span>
+                            <span class="result-label">Wrong</span>
+                        </div>
+                    </div>
+                    <div class="result-stat time">
+                        <span class="result-icon">⏱️</span>
+                        <div>
+                            <span class="result-value" id="timeTaken">0:00</span>
+                            <span class="result-label">Time Taken</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="performance-message" id="performanceMessage"></div>
+
+                <div class="results-actions">
+                    <button class="btn btn-primary" id="reviewBtn">Review Answers 📝</button>
+                    <button class="btn btn-secondary" id="retryBtn">Try Again 🔄</button>
+                    <button class="btn btn-secondary" id="homeBtn">Back to Home 🏠</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Screen -->
+        <div class="screen" id="reviewScreen">
+            <div class="review-header">
+                <h2>📝 Review Your Answers</h2>
+                <button class="btn btn-secondary" id="backToResultsBtn">← Back to Results</button>
+            </div>
+
+            <div class="review-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="correct">Correct ✓</button>
+                <button class="filter-btn" data-filter="wrong">Wrong ✗</button>
+                <button class="filter-btn" data-filter="bookmarked">Bookmarked 🔖</button>
+            </div>
+
+            <div class="review-container" id="reviewContainer">
+                <!-- Review items will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
